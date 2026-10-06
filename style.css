@@ -161,11 +161,10 @@ body{
 .containerdes {
     display: flex;
     background-color: #A875C4;
-    max-width: 900px;
-    margin: 20px auto;
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
     border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .titulodes {
@@ -179,35 +178,77 @@ body{
     max-width: 900px;
 }
 
-.info {
-    width: 60%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-}
 
 .foto_rj{
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 0;
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 /* SOBRE NOS-------------------------------------------- */
 
 .imagem{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /*CORTA AS BORDAS SEM ACHATAR A IMAGEM*/
-    filter: brightness(0.75);
+      max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 .imagens{
-    width: 100%;
-    height: 100%;
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
+.fotoparis {
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
+.fotomaranhao {
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
+.fotosuecia {
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.fotoamazonas {
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.fotorussia {
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.info {
+    font-size: 14px;
+    color: #f1f1f1;
+    padding: 10px;
+}
+
+.containerdes {
+    margin-bottom: 30px;
+}
+
+.imagemsobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
